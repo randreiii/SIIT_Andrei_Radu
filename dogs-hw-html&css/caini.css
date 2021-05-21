@@ -1,0 +1,43 @@
+* {
+    background-color: #f3f7e7;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+}
+
+.menu {
+    display: inline-block;
+    width: 200px;
+    padding: 20px;
+    margin: 40px;
+    font-size: large;
+
+
+}
+
+.content {
+
+    width: 500px;
+    padding: 15px;
+    margin: 20px;
+
+}
+
+
+img {
+    border: 2px solid rgb(51, 90, 92);
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.vertical-line {
+    border-left: 1px solid rgb(134, 170, 172);
+    left: 50%;
+    margin-left: -40px;
+    top: 20px;
+}
