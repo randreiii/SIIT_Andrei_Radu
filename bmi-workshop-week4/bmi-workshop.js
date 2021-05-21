@@ -1,7 +1,7 @@
 var person1 = {
   name: "John Doe",
   gender: "M",
-  weight: 85,
+  weight: 86,
   height: 1.90,
 }
 var person2 = {
@@ -34,7 +34,7 @@ for (var i = 0; i < personList.length; i++) {
   console.log(
     "Name: ", personCurrent.name,
     " | BMI:", Math.round(bmi),
-    " | ", bmiString
+    " |  ", bmiString
   )
 }
 
