@@ -1,0 +1,10 @@
+    button {
+        background-color: #34B4F8;
+        border-radius:7%;
+        color: white;
+        border: none;
+        cursor: pointer;
+        text-align:center;
+        font-size: 16px;
+        align-items: center;
+    }
