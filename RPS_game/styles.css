@@ -1,0 +1,40 @@
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+background-color: rgb(187, 186, 186) ;
+text-align: center;
+}
+
+.score-container{
+    width: 180px;
+    height: 50px;
+    color: hsl(124, 89%, 7%);
+    margin: 0 auto;
+    position: relative;
+    top: 20px;
+    border: 12px solid #B22222;
+    border-radius: 20px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+header{
+    width: 100%;
+    background-color: wheat;
+    height: 60px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.results {
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.app{
+    width: 100px;
+}
