@@ -63,7 +63,12 @@ const btnSave = document.getElementById('save')
 const lista = document.querySelector(".lista > p")
 btnSave.addEventListener('click', function () {
 
-    const container = document.querySelector('.container')
 
-    lista.innerText = container.innerText;
+    const container = document.querySelector('.container')
+    var newElement = document.createElement('p')
+    lista.appendChild(newElement)
+
+    newElement.innerText = container.innerText;
+
+
 })
