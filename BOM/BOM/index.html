@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOM</title>
+</head>
+
+<body>
+
+    <h3>Select lanuage:</h3>
+
+    <div>
+        <input type="radio" id="romanian" name="language" value="romanian"
+            onchange="localStorage.setItem('language', 'romanian')">
+        <label for="romanian">Romanian</label>
+    </div>
+    <div>
+        <input type="radio" id="english" name="language" value="english"
+            onchange="localStorage.setItem('language', 'english')">
+        <label for="english">English</label>
+    </div>
+
+    <h3>Select currency:</h3>
+    
+    <div>
+        <input type="radio" id="lei" name="currency" value="lei" onchange="setCookie('lei')">
+        <label for="lei">Lei</label>
+    </div>
+    <div>
+        <input type="radio" id="euro" name="currency" value="euro" onchange="setCookie('euro')">
+        <label for="euro">Euro</label>
+    </div>
+    <div>
+        <input type="radio" id="ruble" name="currency" value="ruble" onchange="setCookie('ruble')">
+        <label for="ruble">Ruble</label>
+    </div>
+
+    <script src="app.js"> </script>
+</body>
+
+</html>
